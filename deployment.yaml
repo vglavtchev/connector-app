@@ -13,9 +13,9 @@ spec:
         app: node-app 
     spec:
       containers:
-      - name: node-web-app 
-        image: vlad/node-web-app
+      - name: node-app 
+        image: vlad/node-app
         imagePullPolicy: Never
         ports:
-        - containerPort: 8080 
+        - containerPort: 3000 
 
